@@ -1,7 +1,8 @@
 import Mathlib
 
 /-!
-DRAFT statement (no proof file yet, see PROOF_NOTES.md in this folder).
+Statement of the conjecture. It is proved in `Proof.lean`; the proof on paper is in
+`PROOF_NOTES.md` and the paper's exact wording in `source.md` (all in this folder).
 
 V. N. Schvollner, "The Delta property: a bridge between split graphs and Number Theory",
 arXiv:2605.25264v1, the conjecture at the end of the subsection "Integers of the form p^k q":

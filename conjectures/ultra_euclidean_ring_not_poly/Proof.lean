@@ -5,8 +5,10 @@ The counterexample is the ring `ℚ[T;T⁻¹]` of Laurent polynomials. Level `n`
 Laurent polynomials whose exponents lie in a window of `n + 1` consecutive integers that
 grows by one step at a time, alternately to the right and to the left:
 `{0}`, `{0,1}`, `{-1,0,1}`, `{-1,0,1,2}`, ... The function `lvl a` is the first level that
-contains `a`. It is ultra-Euclidean. But `1` and `-T` have refinement `0` (both are units),
-while `1 - T` is not a unit and so has refinement at least `1`.
+contains `a`. It is ultra-Euclidean. But the ring is not a field, because `1 - T` is not zero
+and not a unit. And it is not a polynomial ring `K[x]` over a field: there the sum of two units
+is zero or a unit (the units are the nonzero constants), while here `1` and `-T` are units and
+their sum `1 - T` is neither.
 -/
 
 open Polynomial LaurentPolynomial

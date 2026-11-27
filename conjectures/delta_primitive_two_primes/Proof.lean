@@ -9,12 +9,12 @@ property gives three pairs of complementary divisors `(a, b)` whose differences 
 
 * If a prime divides all six divisors, `n / r^2` has the Delta property (`descent`), so `n`
   is not primitive. Hence at most one pair has both members divisible by `p`, and the same
-  for `q` (`both_dvd_third`).
+  for `q` (`not_two_both`).
 * The pair `{1, n}` cannot occur (`no_one`).
 * Every other pair is `{P, Q}`, or `{p^i, p^i' * Q}`, or `{q^j, q^j' * P}`, or has both
   members divisible by `p` and by `q` (`classify`).
-* The few combinations that survive are settled by arithmetic: `two_fs` gives `24` and `40`,
-  and `star` gives `216 = 3^2 * 24`, which is not primitive.
+* The few combinations that survive are settled by arithmetic: `two_fs_arith` gives `24` and
+  `40`, and `star` gives `216 = 3^2 * 24`, which is not primitive.
 -/
 
 namespace DeltaTwoPrimes

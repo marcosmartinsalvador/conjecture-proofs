@@ -48,11 +48,8 @@ assembled.
       whose Lean files changed (everything, if the checker or the pinned versions
       change, or when started by hand from the Actions tab). The "only what changed"
       part has been tested locally but not yet on GitHub; watch its first run.
-- [ ] **Tidy stale comments in the Lean files**, then re-run the checker and update the
-      quoted output on the affected pages (the fingerprints will change). Known cases:
-      `conjectures/delta_primitive_two_primes/Statement.lean` calls itself a "DRAFT
-      statement (no proof file yet ...)"; a few files point to `source.md`, which is
-      not in this repository. Change comments only, never a statement or a proof.
+- [x] **Stale comments in the Lean files tidied** (2026-11-27): two results changed,
+      comments only, both re-checked, pages updated with the new fingerprints.
 - [ ] **Palomar packaging**, for the results the author chooses to register: a
       `Challenge.lean` and `Solution.lean` with `module` headers, a `comparator.json`,
       a `formalization.yaml`, checked locally with `lake comparator`, following

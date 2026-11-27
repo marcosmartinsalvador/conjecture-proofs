@@ -82,7 +82,7 @@ The checker in [`tools/check_lean.sh`](../../tools/check_lean.sh) printed:
 ```
 ACCEPTED  slug=ultra_euclidean_ring_not_poly  result : Claim  (Claim as defined in conjectures/ultra_euclidean_ring_not_poly/Statement.lean)
           axioms: Classical.choice Quot.sound propext   kernel replay: slug files   sandbox: on
-          statement sha256: bbe34e2d9be72f68   proof sha256: 291a1b52f0cf58b2   files:Statement Proof
+          statement sha256: bbe34e2d9be72f68   proof sha256: c8be5e485874bd5d   files:Statement Proof
           lean: v4.36.0 (611c117bfaf7)   mathlib: fc4f59e577fe   checker: b28f6f42387a1525 (same as main)
           not checked here: that Claim says what the paper says. That is REVIEW.md.
 ```

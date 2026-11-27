@@ -15,6 +15,10 @@ file.
   reasons given on its page.
 - This repository was assembled from the private working repository. The Lean files
   were copied unchanged.
+- **Comments tidied in two results** (the Δ-primitive result and the ultra-Euclidean
+  ring result): out-of-date comments in their Lean files were rewritten. No statement
+  and no proof changed; with comments removed the files are identical to before. Both
+  were re-checked, and their pages show the new fingerprints.
 
 ## 2026-11-26
 

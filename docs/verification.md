@@ -95,8 +95,7 @@ should reproduce them, apart from `sandbox` and the "(same as main)" note.
 The Lean files are byte-for-byte the files that were checked, comments included, so
 that the fingerprints match. Their comments were written while the work was in
 progress. A few refer to working notes that are not in this repository (`source.md`,
-`REVIEW.md`), and one or two describe a state that later changed. The comments are not
-part of what Lean checks. In the same way, the checker's own comments call it "the lane A
+`REVIEW.md`). The comments are not part of what Lean checks. In the same way, the checker's own comments call it "the lane A
 checker", its name in the repository the work was done in.
 
 ## Running it
