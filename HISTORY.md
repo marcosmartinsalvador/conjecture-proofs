@@ -10,6 +10,14 @@ file.
   Each is the accepted Lean text with the `module` header the Palomar registry
   requires; no statement and no proof changed, and the results' own folders are
   untouched. Nothing has been submitted to Palomar.
+- **Final check before release.** Every result called new was searched again for
+  earlier solutions. One change:
+  - **The divisor sum over shifted squares** moved from new to known. Qianghao Wu
+    published a Lean proof of a stronger statement on the morning of 27 November 2026
+    (`KenWuqianghao/kenwu-lab`, Zenodo DOI 10.5281/zenodo.24580854). The proof here had
+    been checked about fourteen hours earlier and was found independently, but it was
+    not public, so theirs is the first published proof.
+  - The other nine full results and the partial result kept their grades.
 - **Kourovka problem 20.52, the odd half**: accepted by the checker and reviewed. Listed
   as a partial result; the problem stays open.
   - Correction during review: the first working note said the problem had no

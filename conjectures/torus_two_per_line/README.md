@@ -1,6 +1,6 @@
 # No set meets every line of the k × k torus exactly twice when 3 divides k
 
-**Proved here, but someone else had it first.** This is a known result, not a new one.
+**Proved here, but someone else published it first.** This is a known result, not a new one.
 
 | | |
 |---|---|

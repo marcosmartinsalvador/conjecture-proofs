@@ -1,14 +1,14 @@
 # A divisor sum over shifted squares is always a multiple of 4
 
-**Proved.** A full resolution of the conjecture as stated in the source.
+**Proved here, but someone else published it first.** This is a known result, not a new one.
 
 | | |
 |---|---|
-| Kind | Full resolution |
+| Kind | Known result |
 | Outcome | Proved |
 | Source | [S. Jirattikansakul, T. Kittipassorn, K. Kongsiri, N. Moonwichit, K. Sriamorn, "Congruences via Partitions with Exactly Two Part Sizes", arXiv:2604.25394v1 (28 April 2026), first conjecture of the concluding remarks](https://arxiv.org/abs/2604.25394) |
 | Machine check | Lean 4.36.0 with Mathlib v4.36.0; accepted on 2026-11-26 |
-| New? | Fairly sure. See [is it new?](#is-it-new) |
+| New? | No. See [who had it first](#who-had-it-first). |
 
 ## In plain words
 
@@ -79,11 +79,11 @@ ACCEPTED  slug=sigma0_shifted_squares_mod4  result : Claim  (Claim as defined in
 
 This says that Lean's kernel accepts `result : Claim`, that the proof rests on no axioms beyond the three standard ones, and which versions were used. It does not say that `Claim` is a faithful reading of the source; that was compared by hand in a separate review, and the reading choices are listed above. See [how results are checked](../../docs/verification.md).
 
-## Is it new?
+## Who had it first
 
-**Fairly sure.** Nothing was found anywhere on this conjecture.
+Qianghao Wu, `KenWuqianghao/kenwu-lab`, folder `results/square-plus-product-divisors` (Zenodo DOI 10.5281/zenodo.24580854): a public Lean proof of a stronger statement (every N that leaves remainder 6 when divided by 8), first committed on 27 November 2026 at 01:44 UTC and released that morning. The proof here was checked on 26 November, about fourteen hours earlier, and the two were found independently; but the proof here was not public then, so theirs is the first published proof.
 
-What was searched, and what could not be, is in [the prior-art note](../../docs/prior-art.md). No search can show that nobody did this before; if you know of earlier work, please [open an issue](../../README.md#corrections).
+This result is kept here because the proof was found and checked independently, before the earlier work was known to this repository. It is not claimed as new.
 
 ## Files
 

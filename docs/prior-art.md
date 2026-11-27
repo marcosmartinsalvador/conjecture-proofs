@@ -11,7 +11,8 @@ gives a grade:
 
 ## What was searched
 
-Every result called new was checked on 26 or 27 November 2026 against:
+Every result called new was checked on 26 or 27 November 2026, and again in a final
+check on 27 November before release, against:
 
 - **arXiv**: later versions of the source paper, its journal reference if any, and
   searches by the mathematical objects involved.
@@ -23,6 +24,8 @@ Every result called new was checked on 26 or 27 November 2026 against:
   `pro20541/dimitrov-conjectures-lean`.
 - **All public GitHub issues, pull requests and code**, by arXiv number.
 - **Mathlib**, and a general web search.
+- **Registries of results**, in the final check: `palomar-registry.org`,
+  `isitsolved.com` and Left to Solve (`GuillaumeBAUD-coder/open-math-agents`).
 
 Results on problems from an established list had a further search of their own,
 described on their page.
@@ -39,8 +42,9 @@ described on their page.
 
 ## What the searches changed
 
-Half of the first twenty proofs found here turned out to have been done before, mostly
-in public collections of machine-found proofs rather than in papers. Those are the
+Eleven of the first twenty proofs found here turned out to have been done before, or
+were published by someone else before this repository was public, mostly in public
+collections of machine-found proofs rather than in papers. Those are the
 "known results" on the front page. See [HISTORY.md](../HISTORY.md) for the record.
 
 If you know of earlier work on anything listed as new, please
