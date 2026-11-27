@@ -1,0 +1,14 @@
+{
+  "slug": "torus_two_per_line",
+  "title": "No set meets every line of the k × k torus exactly twice when 3 divides k",
+  "kind": "known",
+  "outcome": "Proved",
+  "summary": "Ku's restated Conjecture 5.1: no set meets every row, column and diagonal of the k × k torus exactly twice when 3 | k.",
+  "source": "K.-H. Ku, \"Monochromatic k in a row\", arXiv:2606.12880v1 (June 2026), the restatement of Conjecture 5.1.",
+  "url": "https://arxiv.org/abs/2606.12880",
+  "label": "lean",
+  "checked": "2026-11-26",
+  "rank": 12,
+  "new": "no",
+  "first_by": "A proof in words in `the-omega-institute/trureturing`, 4 November 2026. The proof here is the first machine-checked one known to this repository."
+}

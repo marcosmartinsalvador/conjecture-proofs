@@ -1,0 +1,14 @@
+{
+  "slug": "euler_liars_quarter",
+  "title": "Euler liars: the half and quarter cases",
+  "kind": "known",
+  "outcome": "Proved",
+  "summary": "Odd squarefree composites with φ(n)/2 or φ(n)/4 Euler liars are Carmichael numbers or of the form p(2p−1).",
+  "source": "A. Alcantarilla Sánchez, J. Cottaar, T. Lange, B. de Weger, \"Ours go to 211: Euler pseudoprimes to 47 prime bases (from Carmichael numbers)\", arXiv:2602.21840v1 (25 February 2026), the conjecture closing the appendix on \"Sophie Germinus pseudoprimes\".",
+  "url": "https://arxiv.org/abs/2602.21840",
+  "label": "lean",
+  "checked": "2026-11-26",
+  "rank": 13,
+  "new": "no",
+  "first_by": "The half case is in a 2011 paper (Di Biagio, arXiv:1109.3596). The quarter case is reported to be stated as a theorem on the web page of the paper's own authors, which says a proof exists and a write-up is in preparation; that page could not be opened from here and its content is as reported by a public record. No earlier machine-checked proof was found."
+}

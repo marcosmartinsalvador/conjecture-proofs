@@ -1,0 +1,13 @@
+{
+  "slug": "ku_kinarow_conj54",
+  "title": "Ku's Conjecture 5.4 on the torus board is false",
+  "kind": "full",
+  "outcome": "Disproved",
+  "summary": "Sets of 2k+2 points meeting every line of the k × k torus at least twice exist for k = 6 and 9.",
+  "source": "K.-H. Ku, \"Monochromatic k in a row\", arXiv:2606.12880v1 (June 2026), Conjecture 5.4.",
+  "url": "https://arxiv.org/abs/2606.12880",
+  "label": "lean",
+  "checked": "2026-11-26",
+  "rank": 7,
+  "new": "fairly sure"
+}

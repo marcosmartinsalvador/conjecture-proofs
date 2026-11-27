@@ -1,0 +1,13 @@
+{
+  "slug": "sigma0_shifted_squares_mod4",
+  "title": "A divisor sum over shifted squares is always a multiple of 4",
+  "kind": "full",
+  "outcome": "Proved",
+  "summary": "For N = 16n + 6, the sum of σ₀(N − k²) over 1 ≤ k < √N is divisible by 4.",
+  "source": "S. Jirattikansakul, T. Kittipassorn, K. Kongsiri, N. Moonwichit, K. Sriamorn, \"Congruences via Partitions with Exactly Two Part Sizes\", arXiv:2604.25394v1 (28 April 2026), first conjecture of the concluding remarks.",
+  "url": "https://arxiv.org/abs/2604.25394",
+  "label": "lean",
+  "checked": "2026-11-26",
+  "rank": 6,
+  "new": "fairly sure"
+}

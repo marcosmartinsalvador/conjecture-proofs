@@ -1,0 +1,13 @@
+{
+  "slug": "kourovka_20_52_class_deficiency",
+  "title": "Kourovka problem 20.52: the odd half",
+  "kind": "partial",
+  "outcome": "Odd half proved; the problem is still open",
+  "summary": "|G| − k(G) = 16m is attained by an odd-order group for every m in which 2 occurs to an odd power, and for every odd m.",
+  "source": "*Unsolved Problems in Group Theory. The Kourovka Notebook*, No. 21, edited by E. I. Khukhro and V. D. Mazurov, arXiv:1401.0300v50 (November 2026), problem 20.52, posed by D. MacHale.",
+  "url": "https://arxiv.org/abs/1401.0300",
+  "label": "lean",
+  "checked": "2026-11-27",
+  "rank": 11,
+  "new": "fairly sure; the proof is short"
+}

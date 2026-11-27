@@ -1,0 +1,13 @@
+{
+  "slug": "ultra_euclidean_refinement_false",
+  "title": "Ultra-Euclidean functions: the refinement conjecture is false",
+  "kind": "full",
+  "outcome": "Disproved",
+  "summary": "The refinement of an ultra-Euclidean function need not be ultra-Euclidean.",
+  "source": "S. Sekhon, \"A Necessary and Sufficient Condition for Uniqueness of Euclidean Division\", arXiv:2604.24399v2 (April 2026), section \"Further investigation\".",
+  "url": "https://arxiv.org/abs/2604.24399",
+  "label": "lean",
+  "checked": "2026-11-26",
+  "rank": 4,
+  "new": "fairly sure, with one gap"
+}

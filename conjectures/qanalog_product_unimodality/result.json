@@ -1,0 +1,14 @@
+{
+  "slug": "qanalog_product_unimodality",
+  "title": "Unimodal products of q-analogs: one clause of the conjecture is false",
+  "kind": "known",
+  "outcome": "Disproved as printed",
+  "summary": "The clause \"necessary when p ≤ 3\" fails for (1+q)⁶(1+q³).",
+  "source": "B. B. Connelly, E. Ito, T. C. Martinez, O. Shevchenko, K. Yang, \"Unimodality of q-Fibonomial coefficients for small cases\", arXiv:2605.12822v1 (12 May 2026), the conjecture of the last section.",
+  "url": "https://arxiv.org/abs/2605.12822",
+  "label": "lean",
+  "checked": "2026-11-26",
+  "rank": 15,
+  "new": "no",
+  "first_by": "The same counterexample with a Lean proof, in `the-omega-institute/trureturing`, merged 10 September 2026."
+}

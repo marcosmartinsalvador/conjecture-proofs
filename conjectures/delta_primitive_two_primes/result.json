@@ -1,0 +1,13 @@
+{
+  "slug": "delta_primitive_two_primes",
+  "title": "Only 24 and 40 are Δ-primitive among numbers with two prime factors",
+  "kind": "full",
+  "outcome": "Proved",
+  "summary": "Among the numbers pˣqʸ, only 24 and 40 are Δ-primitive.",
+  "source": "V. N. Schvöllner, \"The Δ property: a bridge between split graphs and Number Theory\", arXiv:2605.25264v1 (24 May 2026). The conjecture is already in the author's 2025 thesis (arXiv:2507.13479).",
+  "url": "https://arxiv.org/abs/2605.25264",
+  "label": "lean",
+  "checked": "2026-11-26",
+  "rank": 2,
+  "new": "fairly sure"
+}

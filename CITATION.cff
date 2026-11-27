@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: >-
+  If you use or write about a result in this repository, please link to that
+  result's page and cite the original source of the conjecture as well.
+type: software
+title: "Conjecture proofs: machine-checked proofs and disproofs of conjectures from recent papers"
+authors:
+  # TODO before publication: the author's name, spelled as he wants it shown.
+  - family-names: "TODO"
+    given-names: "TODO"
+repository-code: "https://github.com/marcosmartinsalvador/conjecture-proofs"
+license: Apache-2.0
+keywords:
+  - mathematical conjectures
+  - Lean 4
+  - Mathlib
+  - formal verification
+  - counterexamples
+abstract: >-
+  Unrefereed proofs, disproofs and partial results on conjectures from recent
+  mathematics papers and problem lists, found with AI agents and checked in
+  Lean 4 against Mathlib. Each result states its source, what exactly is
+  proved, how it was checked, and how sure it is to be new.

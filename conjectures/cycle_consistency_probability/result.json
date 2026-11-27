@@ -1,0 +1,13 @@
+{
+  "slug": "cycle_consistency_probability",
+  "title": "Random equations on a cycle: the printed formula is wrong, the corrected one is proved",
+  "kind": "full",
+  "outcome": "Disproved as printed; corrected formula proved",
+  "summary": "The printed formula for the consistency probability of a cycle is false; the corrected formula is proved.",
+  "source": "P. Horak, I. Semaev, \"Inconsistency Probability of Sparse Equations over F2\", arXiv:2603.24890v1 (26 March 2026), the conjecture of the last subsection.",
+  "url": "https://arxiv.org/abs/2603.24890",
+  "label": "lean",
+  "checked": "2026-11-26",
+  "rank": 3,
+  "new": "fairly sure"
+}

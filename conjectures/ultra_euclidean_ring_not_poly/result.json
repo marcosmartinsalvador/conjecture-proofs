@@ -1,0 +1,13 @@
+{
+  "slug": "ultra_euclidean_ring_not_poly",
+  "title": "Ultra-Euclidean functions: such rings need not be fields or polynomial rings",
+  "kind": "full",
+  "outcome": "Disproved",
+  "summary": "A ring with an ultra-Euclidean function need not be a field or K[x].",
+  "source": "S. Sekhon, \"A Necessary and Sufficient Condition for Uniqueness of Euclidean Division\", arXiv:2604.24399v2 (April 2026), section \"Further investigation\".",
+  "url": "https://arxiv.org/abs/2604.24399",
+  "label": "lean",
+  "checked": "2026-11-26",
+  "rank": 5,
+  "new": "fairly sure, with one gap"
+}

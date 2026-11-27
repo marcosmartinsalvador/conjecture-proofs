@@ -1,0 +1,67 @@
+# Before this repository is made public
+
+Delete this file as the last step. Until every box is ticked, keep the repository
+private.
+
+## For the author
+
+- [ ] **Write the notice** at the top of `README.md` ("Status of this work"). In your
+      own words. It should say:
+  - the results are unrefereed: no mathematician outside has read them;
+  - what you are confident of (the Lean checks) and what you are not (that nobody did
+    it before; that every statement is read exactly as its authors meant);
+  - that corrections are welcome, and how to send them.
+- [ ] **Write the AI disclosure** in `README.md` ("How these results were produced"). In
+      your own words. It should say:
+  - which AI model found and wrote the proofs, and through what tool;
+  - how the agents were organised: one that proposes and proves, a separate one that
+    reviews, and a checker that neither can change;
+  - what you did yourself: built and ran the system, set the rules for what counts as
+    a result, read the reports, decided what to publish;
+  - what you did not do: you did not find or write the proofs;
+  - which results, if any, you have studied and can explain yourself.
+- [ ] **Put your name** in `CITATION.cff` (two `TODO` fields), spelled as you want it
+      shown.
+- [ ] **Read every page under `conjectures/`** at least once. You are the person
+      responsible for what they say.
+- [ ] **Decide which results go public.** All 21 are here. If you would rather start
+      with fewer, delete the folders you do not want and run
+      `python3 scripts/build_index.py`.
+- [ ] On GitHub: turn on "Keep my email addresses private" (Settings, Emails), and
+      check that two-factor sign-in is on.
+- [ ] Add a one-line description to the repository (suggestion: "Machine-checked proofs
+      and disproofs of conjectures from recent mathematics papers, found with AI agents
+      and verified in Lean 4").
+
+## For a session with Lean installed
+
+These need a machine that can run Lean; they could not be done where this package was
+assembled.
+
+- [ ] From a fresh clone: `./setup.sh`, then `tools/check_lean.sh <folder>` for all 21
+      folders. Every one must print `ACCEPTED` with the statement and proof
+      fingerprints quoted on its page.
+- [ ] `make test-lean` passes.
+- [ ] The automatic check (`.github/workflows/check.yml`) has run green at least once.
+      It was written without being run; fix it if the first run fails.
+- [ ] **Tidy stale comments in the Lean files**, then re-run the checker and update the
+      quoted output on the affected pages (the fingerprints will change). Known cases:
+      `conjectures/delta_primitive_two_primes/Statement.lean` calls itself a "DRAFT
+      statement (no proof file yet ...)"; a few files point to `source.md`, which is
+      not in this repository. Change comments only, never a statement or a proof.
+- [ ] **Palomar packaging**, for the results the author chooses to register: a
+      `Challenge.lean` and `Solution.lean` with `module` headers, a `comparator.json`,
+      a `formalization.yaml`, checked locally with `lake comparator`, following
+      https://palomar-registry.org/how-to-submit . Palomar asks for credible research
+      interest, so start with the strongest results, not all 21.
+
+## On the day
+
+- [ ] Run the search for earlier solutions again for every result called new
+      (`docs/prior-art.md` says where), and move anything that has been overtaken to
+      the known results.
+- [ ] Delete this file, commit, and tag the commit (`v1`).
+- [ ] Switch the repository to public.
+- [ ] Submit to Palomar, signed in with your own GitHub account.
+- [ ] Optional: email the authors of the papers behind your best results, with a link
+      to the result's page.

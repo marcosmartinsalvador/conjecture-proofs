@@ -1,0 +1,14 @@
+{
+  "slug": "relative_davenport_coset_difference",
+  "title": "A conjecture on Davenport constants of cosets is false as stated",
+  "kind": "known",
+  "outcome": "Disproved as stated",
+  "summary": "d_β(G) = d_{β∖α}(G) fails for G = ℤ/4.",
+  "source": "J. Kettinger, G. Moles, \"Elasticity of Orders from the S-relative Davenport Constant: an Arithmetic Application of a Number-Theoretic Investigation\", arXiv:2605.17595v2 (v1 17 May 2026, v2 14 July 2026), Conjecture 2.17.",
+  "url": "https://arxiv.org/abs/2605.17595",
+  "label": "lean",
+  "checked": "2026-11-26",
+  "rank": 14,
+  "new": "no",
+  "first_by": "The same counterexample in words in `the-omega-institute/trureturing`, 5 November 2026. The version here is the first machine-checked one known to this repository."
+}

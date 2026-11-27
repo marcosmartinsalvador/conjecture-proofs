@@ -1,0 +1,13 @@
+{
+  "slug": "stable_consecutive_pattern_nonmonotone",
+  "title": "Stable consecutive patterns need not be monotone",
+  "kind": "full",
+  "outcome": "Disproved",
+  "summary": "\"A consecutive pattern is stable if and only if it is monotone\" is false: 12435 is stable.",
+  "source": "S. Chen, H. Fang, S. Kitaev, \"Stable patterns on permutations of multisets\", arXiv:2602.13566v2 (v1 February 2026, v2 1 September 2026), Conjecture 6.1.",
+  "url": "https://arxiv.org/abs/2602.13566",
+  "label": "lean",
+  "checked": "2026-11-26",
+  "rank": 1,
+  "new": "less sure"
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "dimitrov3_conj4",
+  "title": "Dimitrov's Conjecture 4",
+  "kind": "known",
+  "outcome": "Proved",
+  "summary": "A lower bound on an expression in φ(n), ψ(n) and σ(n), for all n ≥ 2 and k ≥ 1.",
+  "source": "S. I. Dimitrov, \"Lower bounds on expressions depending on the functions φ(n), ψ(n) and σ(n), III\", arXiv:2606.12484v1 (June 2026), Conjecture 4.",
+  "url": "https://arxiv.org/abs/2606.12484",
+  "label": "lean",
+  "checked": "2026-11-26",
+  "rank": 17,
+  "new": "no",
+  "first_by": "A public Lean proof in `the-omega-institute/trureturing`, merged 14 November 2026."
+}

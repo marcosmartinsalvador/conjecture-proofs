@@ -1,0 +1,13 @@
+{
+  "slug": "expansive_restriction_torsion",
+  "title": "Restricting a positively expansive map keeps it positively expansive",
+  "kind": "full",
+  "outcome": "Proved, under one reading of the wording",
+  "summary": "On a torsion abelian group, the restriction of a positively expansive endomorphism to an invariant subgroup is positively expansive.",
+  "source": "M. Achigar, \"Algebraic expansivity on abelian groups\", arXiv:2604.24556v1 (27 April 2026), the conjecture closing the paper.",
+  "url": "https://arxiv.org/abs/2604.24556",
+  "label": "lean",
+  "checked": "2026-11-26",
+  "rank": 8,
+  "new": "fairly sure; the proof is short"
+}

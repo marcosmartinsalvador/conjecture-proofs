@@ -1,0 +1,13 @@
+# One folder per result. See docs/verification.md.
+# conjectures/<slug>/Statement.lean is the module conjectures.<slug>.Statement.
+name = "conjectures"
+defaultTargets = ["conjectures"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.36.0"
+
+[[lean_lib]]
+name = "conjectures"
+globs = ["conjectures.+"]
