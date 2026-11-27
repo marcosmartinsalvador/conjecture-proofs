@@ -8,17 +8,12 @@ the source says.
 The repository is updated as new results are checked and reviewed.
 [HISTORY.md](HISTORY.md) records every addition, correction and reclassification.
 
-<!-- ======================================================================
-     TO BE WRITTEN BY THE AUTHOR BEFORE THIS REPOSITORY IS MADE PUBLIC.
-     Replace the block below with your own notice, in your own words.
-     Points it should cover (see BEFORE_PUBLIC.md):
-       - these results are unrefereed: no mathematician outside has read them;
-       - what you are confident of (the Lean checks) and what you are not
-         (that nobody did it before; that every statement is read as its
-         authors meant);
-       - that you welcome corrections, and how to send them.
-     ====================================================================== -->
-> **Status of this work.** *[The author's notice goes here.]*
+> **Status of this work.** These results have not been reviewed by any mathematician.
+> Every proof has been checked by the Lean proof assistant, so I am confident each one
+> proves the statement written in Lean. I am less sure of two things: that nobody solved
+> these before, and that each Lean statement says exactly what the original authors
+> meant. If you find a mistake or know of earlier work, please open an issue and I will
+> correct the record.
 
 ## Results
 
@@ -89,19 +84,18 @@ These were proved and machine-checked here, but someone else had them first. The
 
 ## How these results were produced
 
-<!-- ======================================================================
-     TO BE WRITTEN BY THE AUTHOR BEFORE THIS REPOSITORY IS MADE PUBLIC.
-     Replace the block below with your own account, in your own words.
-     Points it should cover (see BEFORE_PUBLIC.md):
-       - which AI model found and wrote the proofs, and through what tool;
-       - how the agents were organised (one that proposes and proves, a
-         separate one that reviews, a checker neither can change);
-       - what you did yourself: built and ran the system, chose what counts
-         as a result, read the reports, decided what to publish;
-       - what you did not do: you did not find or write the proofs;
-       - which results, if any, you have studied and can explain yourself.
-     ====================================================================== -->
-> *[The author's account of how AI was used, and of his own part, goes here.]*
+The proofs here were found and written by Anthropic's Claude Fable 5.2 (an AI model),
+through agentic work in Claude Code. Each attempt to prove or disprove a conjecture is
+written in Lean; a separate agent then compares the Lean statement with the original
+source and searches for any previous solution. A fixed checker script, which the agents
+cannot change, decides whether a proof is accepted. The checker, the rules and the pages
+in this repository, the harness as a whole, were closely directed by me and written by
+Claude. I set up the project and the harness, decided what counts as a result, read the
+results, and decided what to publish. So far I have studied two of these proofs closely
+enough to explain them myself ([Ku's Conjecture 5.4](conjectures/ku_kinarow_conj54/) and
+the [cycle formula](conjectures/cycle_consistency_probability/)); more will follow.
+
+Marcos Martín Salvador
 
 ## How each result is checked
 

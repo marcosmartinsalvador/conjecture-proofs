@@ -5,13 +5,13 @@ private.
 
 ## For the author
 
-- [ ] **Write the notice** at the top of `README.md` ("Status of this work"). In your
+- [x] **Write the notice** at the top of `README.md` ("Status of this work"). In your
       own words. It should say:
   - the results are unrefereed: no mathematician outside has read them;
   - what you are confident of (the Lean checks) and what you are not (that nobody did
     it before; that every statement is read exactly as its authors meant);
   - that corrections are welcome, and how to send them.
-- [ ] **Write the AI disclosure** in `README.md` ("How these results were produced"). In
+- [x] **Write the AI disclosure** in `README.md` ("How these results were produced"). In
       your own words. It should say:
   - which AI model found and wrote the proofs, and through what tool;
   - how the agents were organised: one that proposes and proves, a separate one that
@@ -20,7 +20,7 @@ private.
     a result, read the reports, decided what to publish;
   - what you did not do: you did not find or write the proofs;
   - which results, if any, you have studied and can explain yourself.
-- [ ] **Put your name** in `CITATION.cff` (two `TODO` fields), spelled as you want it
+- [x] **Put your name** in `CITATION.cff` (two `TODO` fields), spelled as you want it
       shown.
 - [ ] **Read every page under `conjectures/`** at least once. You are the person
       responsible for what they say.

@@ -5,9 +5,8 @@ message: >-
 type: software
 title: "Conjecture proofs: machine-checked proofs and disproofs of conjectures from recent papers"
 authors:
-  # TODO before publication: the author's name, spelled as he wants it shown.
-  - family-names: "TODO"
-    given-names: "TODO"
+  - family-names: "Martín Salvador"
+    given-names: "Marcos"
 repository-code: "https://github.com/marcosmartinsalvador/conjecture-proofs"
 license: Apache-2.0
 keywords:
