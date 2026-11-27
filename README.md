@@ -5,6 +5,9 @@ problem lists. Every result here was found with AI agents, checked by the Lean 4
 assistant against Mathlib, and then reviewed for whether the Lean statement says what
 the source says.
 
+The repository is updated as new results are checked and reviewed.
+[HISTORY.md](HISTORY.md) records every addition, correction and reclassification.
+
 <!-- ======================================================================
      TO BE WRITTEN BY THE AUTHOR BEFORE THIS REPOSITORY IS MADE PUBLIC.
      Replace the block below with your own notice, in your own words.

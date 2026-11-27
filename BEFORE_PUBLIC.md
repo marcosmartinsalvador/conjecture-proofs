@@ -38,12 +38,16 @@ private.
 These need a machine that can run Lean; they could not be done where this package was
 assembled.
 
-- [ ] From a fresh clone: `./setup.sh`, then `tools/check_lean.sh <folder>` for all 21
-      folders. Every one must print `ACCEPTED` with the statement and proof
-      fingerprints quoted on its page.
+- [x] From a fresh clone: `./setup.sh`, then `tools/check_lean.sh <folder>` for all 21
+      folders. Done on 2026-11-27 by the automatic check on a GitHub machine: all 21
+      printed `ACCEPTED` (27 minutes). The fingerprints quoted on each page match the
+      files in this repository.
 - [ ] `make test-lean` passes.
-- [ ] The automatic check (`.github/workflows/check.yml`) has run green at least once.
-      It was written without being run; fix it if the first run fails.
+- [x] The automatic check has run green once (2026-11-27). It has since been split in
+      two: `index.yml` on every push, and `lean.yml`, which re-checks only the results
+      whose Lean files changed (everything, if the checker or the pinned versions
+      change, or when started by hand from the Actions tab). The "only what changed"
+      part has been tested locally but not yet on GitHub; watch its first run.
 - [ ] **Tidy stale comments in the Lean files**, then re-run the checker and update the
       quoted output on the affected pages (the fingerprints will change). Known cases:
       `conjectures/delta_primitive_two_primes/Statement.lean` calls itself a "DRAFT

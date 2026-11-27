@@ -67,6 +67,8 @@ Use the same sections as the existing pages, in the same order:
    ([prior-art.md](prior-art.md) says where).
 3. `python3 scripts/build_index.py` has been run, so the front page includes the new
    row. The automatic check fails if it has not.
+   A second automatic check runs the checker on every result whose Lean files changed
+   in the pull request; it must be green before merging.
 4. A line is added to [HISTORY.md](../HISTORY.md).
 
 ## Changing or withdrawing a result

@@ -1,0 +1,78 @@
+name: lean
+
+# Runs the checker. A full run replays every proof and takes about half an hour, so on
+# a push or pull request only the results whose Lean files changed are checked. A
+# change to the checker, the pinned versions or the setup re-checks everything, and
+# so does a manual run (Actions tab, "Run workflow").
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'conjectures/**/*.lean'
+      - 'tools/**'
+      - 'tests/**'
+      - 'lean-toolchain'
+      - 'lakefile.toml'
+      - 'lake-manifest.json'
+      - 'setup.sh'
+  pull_request:
+    paths:
+      - 'conjectures/**/*.lean'
+      - 'tools/**'
+      - 'tests/**'
+      - 'lean-toolchain'
+      - 'lakefile.toml'
+      - 'lake-manifest.json'
+      - 'setup.sh'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lean-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lean:
+    name: Changed proofs are accepted by the checker
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Choose the results to check
+        id: pick
+        env:
+          EVENT: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+          SHA: ${{ github.sha }}
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          case "$EVENT" in
+            pull_request) range="origin/$BASE_REF...HEAD" ;;
+            push)         range="$BEFORE..$SHA" ;;
+            *)            range="all" ;;
+          esac
+          scripts/changed_results.sh "$range" > /tmp/folders.txt
+          echo "Results to check:"; cat /tmp/folders.txt
+          echo "count=$(wc -l < /tmp/folders.txt | tr -d ' ')" >> "$GITHUB_OUTPUT"
+      - name: Install Lean and Mathlib
+        if: steps.pick.outputs.count != '0'
+        run: ./setup.sh
+      - name: Run the checker
+        if: steps.pick.outputs.count != '0'
+        run: |
+          export PATH="$HOME/.elan/bin:$PATH"
+          failed=0
+          while read -r s; do
+            if tools/check_lean.sh "$s" > "/tmp/$s.txt" 2>&1; then
+              cat "/tmp/$s.txt"
+            else
+              echo "::error::$s was not accepted"
+              cat "/tmp/$s.txt"
+              failed=1
+            fi
+          done < /tmp/folders.txt
+          exit "$failed"
