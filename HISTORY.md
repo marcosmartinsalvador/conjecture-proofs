@@ -5,6 +5,11 @@ file.
 
 ## 2026-11-27
 
+- **Palomar packages added** for three results (the Kourovka partial result, the
+  Δ-primitive result and the cycle formula), under [`palomar/`](palomar/README.md).
+  Each is the accepted Lean text with the `module` header the Palomar registry
+  requires; no statement and no proof changed, and the results' own folders are
+  untouched. Nothing has been submitted to Palomar.
 - **Kourovka problem 20.52, the odd half**: accepted by the checker and reviewed. Listed
   as a partial result; the problem stays open.
   - Correction during review: the first working note said the problem had no

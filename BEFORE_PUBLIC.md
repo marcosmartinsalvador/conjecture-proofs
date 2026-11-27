@@ -42,7 +42,7 @@ assembled.
       folders. Done on 2026-11-27 by the automatic check on a GitHub machine: all 21
       printed `ACCEPTED` (27 minutes). The fingerprints quoted on each page match the
       files in this repository.
-- [ ] `make test-lean` passes.
+- [x] `make test-lean` passes. Done on 2026-11-27: 108 checks, all `ok`.
 - [x] The automatic check has run green once (2026-11-27). It has since been split in
       two: `index.yml` on every push, and `lean.yml`, which re-checks only the results
       whose Lean files changed (everything, if the checker or the pinned versions
@@ -51,11 +51,19 @@ assembled.
       accepted with the fingerprints on their pages.
 - [x] **Stale comments in the Lean files tidied** (2026-11-27): two results changed,
       comments only, both re-checked, pages updated with the new fingerprints.
-- [ ] **Palomar packaging**, for the results the author chooses to register: a
+- [x] **Palomar packaging**, for the results the author chooses to register: a
       `Challenge.lean` and `Solution.lean` with `module` headers, a `comparator.json`,
       a `formalization.yaml`, checked locally with `lake comparator`, following
       https://palomar-registry.org/how-to-submit . Palomar asks for credible research
       interest, so start with the strongest results, not all 21.
+      Done on 2026-11-27 for three results, under [`palomar/`](palomar/README.md): the
+      Kourovka partial result, the Δ-primitive result and the cycle formula. All three
+      were accepted by `lake comparator`.
+- [ ] **Decide where the Palomar packages are submitted from.** Palomar refuses a
+      repository in which any `.lean` file lacks the `module` header, and the 49 files
+      under `conjectures/` lack it (the checker here refuses module files). Either
+      submit from a small repository holding only the packages, or port every Lean
+      file here. See [`palomar/README.md`](palomar/README.md).
 
 ## On the day
 
