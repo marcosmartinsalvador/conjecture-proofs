@@ -47,7 +47,8 @@ assembled.
       two: `index.yml` on every push, and `lean.yml`, which re-checks only the results
       whose Lean files changed (everything, if the checker or the pinned versions
       change, or when started by hand from the Actions tab). The "only what changed"
-      part has been tested locally but not yet on GitHub; watch its first run.
+      part ran on GitHub the same day: it picked the two changed results and both were
+      accepted with the fingerprints on their pages.
 - [x] **Stale comments in the Lean files tidied** (2026-11-27): two results changed,
       comments only, both re-checked, pages updated with the new fingerprints.
 - [ ] **Palomar packaging**, for the results the author chooses to register: a
