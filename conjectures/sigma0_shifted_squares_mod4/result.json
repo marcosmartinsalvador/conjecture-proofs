@@ -1,13 +1,14 @@
 {
   "slug": "sigma0_shifted_squares_mod4",
   "title": "A divisor sum over shifted squares is always a multiple of 4",
-  "kind": "full",
+  "kind": "known",
   "outcome": "Proved",
   "summary": "For N = 16n + 6, the sum of σ₀(N − k²) over 1 ≤ k < √N is divisible by 4.",
   "source": "S. Jirattikansakul, T. Kittipassorn, K. Kongsiri, N. Moonwichit, K. Sriamorn, \"Congruences via Partitions with Exactly Two Part Sizes\", arXiv:2604.25394v1 (28 April 2026), first conjecture of the concluding remarks.",
   "url": "https://arxiv.org/abs/2604.25394",
   "label": "lean",
   "checked": "2026-11-26",
-  "rank": 6,
-  "new": "fairly sure"
+  "rank": 11,
+  "new": "no",
+  "first_by": "Qianghao Wu, `KenWuqianghao/kenwu-lab`, folder `results/square-plus-product-divisors` (Zenodo DOI 10.5281/zenodo.24580854): a public Lean proof of a stronger statement (every N that leaves remainder 6 when divided by 8), first committed on 27 November 2026 at 01:44 UTC and released that morning. The proof here was checked on 26 November, about fourteen hours earlier, and the two were found independently; but the proof here was not public then, so theirs is the first published proof."
 }

@@ -1,6 +1,6 @@
 # Unimodal products of q-analogs: one clause of the conjecture is false
 
-**Disproved as printed here, but someone else had it first.** This is a known result, not a new one.
+**Disproved as printed here, but someone else published it first.** This is a known result, not a new one.
 
 | | |
 |---|---|

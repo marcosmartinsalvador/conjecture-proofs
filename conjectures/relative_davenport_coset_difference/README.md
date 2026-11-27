@@ -1,6 +1,6 @@
 # A conjecture on Davenport constants of cosets is false as stated
 
-**Disproved as stated here, but someone else had it first.** This is a known result, not a new one.
+**Disproved as stated here, but someone else published it first.** This is a known result, not a new one.
 
 | | |
 |---|---|
