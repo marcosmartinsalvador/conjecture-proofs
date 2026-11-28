@@ -91,9 +91,11 @@ source and searches for any previous solution. A fixed checker script, which the
 cannot change, decides whether a proof is accepted. The checker, the rules and the pages
 in this repository, the harness as a whole, were closely directed by me and written by
 Claude. I set up the project and the harness, decided what counts as a result, read the
-results, and decided what to publish. So far I have studied two of these proofs closely
-enough to explain them myself ([Ku's Conjecture 5.4](conjectures/ku_kinarow_conj54/) and
-the [cycle formula](conjectures/cycle_consistency_probability/)); more will follow.
+results, and decided what to publish. So far I have studied three of these proofs closely
+enough to explain them myself ([Ku's Conjecture 5.4](conjectures/ku_kinarow_conj54/), the
+[cycle formula](conjectures/cycle_consistency_probability/) and the
+[partial result on Kourovka problem 20.52](conjectures/kourovka_20_52_class_deficiency/));
+more will follow.
 
 Marcos Martín Salvador
 
